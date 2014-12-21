@@ -4,8 +4,11 @@
 This is a simple Paperclip processor to apply watermarks on Paperclip's images. The watermark will be resized to fit the base image.
 
 Few options are available to specify the position and it opacity:
+
 `watermark_distance_from_top`: specify the position from top in percentage
+
 `watermark_position`: specify the position (NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast)
+
 `watermark_dissolve`: specify the opacity
 
 ## Usage
@@ -17,7 +20,7 @@ Few options are available to specify the position and it opacity:
                                  thumb: '250x250>',
                                  original: {
                                           geometry: '1280x1280>',
-                                          watermark_dissolve: 22,
+                                          watermark_dissolve: 30,
                                           watermark_distance_from_top: 90,
                                           watermark_path: "#{Rails.root}/public/images/logo.png"
                                   }

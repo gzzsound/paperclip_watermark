@@ -7,7 +7,6 @@ require 'paperclip/geometry'
 require 'paperclip/geometry_detector_factory'
 require 'paperclip/geometry_parser_factory'
 require 'cocaine'
-require 'byebug'
 
 describe PaperclipWatermark::Watermark do
   let(:file) { File.new(File.expand_path('../../support/dummy.jpg', __FILE__)) }

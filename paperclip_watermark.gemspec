@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.name          = "paperclip_watermark"
   spec.version       = PaperclipWatermark::VERSION
   spec.authors       = ["Alessandro Caianiello"]
-  spec.email         = ["alessandro@caianiello.it"]
-  spec.summary       = %q{Paperclip Watermark with resize option}
+  spec.email         = ["github@caianiello.it"]
+  spec.summary       = %q{Paperclip Watermark with resize support}
   spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
@@ -21,5 +21,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "paperclip", "~> 4.2"
   spec.add_development_dependency("rspec")
-  spec.add_development_dependency("byebug")
 end

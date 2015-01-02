@@ -12,7 +12,7 @@ module Paperclip
       @position          = options[:watermark_position]
       @distance_from_top = options[:watermark_distance_from_top]
 
-      raise Paperclip::Error.new('Postion or distance_from_top required') if @position.nil? && @distance_from_top.nil?
+      raise Paperclip::Error.new('Position or distance from top required') if @position.nil? && @distance_from_top.nil?
       raise Paperclip::Error.new('Missing watermark path') if @watermark_path.nil?
     end
 
